@@ -4,33 +4,21 @@ title: Medical Video AI Assessment and Uncertainty Quantification - Bridging Res
 ---
 
 <div class="home" id="home">
-	<h1 class="pageTitle">Recent Posts</h1>
-	<div class="posts noList">
-		{%- for post in paginator.posts -%}
-		<article>
-			<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-			<h3>
-				<a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			</h3>
-			<p>
-				{%- if post.description -%}{{ post.description }}{%- else -%}{{
-				post.excerpt | strip_html }}{%- endif -%}
-			</p>
-		</article>
-		{%- endfor -%}
-	</div>
-	<!-- Pagination links -->
-	<div class="pagination">
-		{%- if paginator.previous_page -%}
-		<a
-			href="{{ paginator.previous_page_path | relative_url }}"
-			class="previous button__outline"
-			>Newer Posts</a
-		>
-		{%- endif -%} {%- if paginator.next_page -%}
-		<a href="{{ paginator.next_page_path | relative_url }}" class="next button__outline"
-			>Older Posts</a
-		>
-		{%- endif -%}
-	</div>
+<!-- <h5 class="pageTitle">When? 09/23/2025 </h5>
+<h5 class="pageTitle">Where? Seoul, Korea</h5> -->
+ <body>
+<!--  <section> -->
+  <center> 
+  <h4> Bridging Regulatory Science and Medical Imaging Evaluation </h4>
+</center> 
+  <p>
+    Artificial Intelligence and Machine Learning (AI/ML)-enabled medical devices are advancing rapidly to address the evolving needs of patients, clinicians, and manufacturers in the MedTech industry.  However, the pace of technological innovation has outstripped the development of evaluation methods in some instances, creating uncertainty for developers, and posing challenges for regulatory bodies charged with ensuring safety, efficacy, and transparency.  </p>
+  <p>
+    The workshop aims to introduce regulatory science on AI-enabled devices to the ISBI community, with a particular focus on the assessment of medical video AI and uncertainty quantification. These areas present unique challenges, including frame-to-frame variability, motion artifacts, and temporal consistency. We aim to foster dialogue among researchers, clinicians, and regulators to discuss technical and regulatory challenges and help to reduce the gap between development of novel AI technologies and their clinical adoption. We will discuss the development of regulatory science tools, testing methods, and metrics for assessing AI-assisted devices.   </p>
+  <p>
+    While this workshop will focus on medical video AI systems, assessment many of the concepts generalize to other device types. 
+  </p>
+<!-- </section> -->
+ </body>
+
 </div>
