@@ -20,22 +20,26 @@ paginate: 5
 
 navigation:
     - title: Home
-      url: /index.html
+      url: /home #index.html
     - title: About
       url: /about
-    - title: Contact
-      url: /contact
+    - title: Call for paper
+      url: /paper
+    - title: Keynote speakers
+      url: /keynote
+    - title: Schedule
+      url: /schedule
 
-social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+# social:
+    # github: brianmaierjr
+    # twitter: brianmaierjr
+    # facebook: brianmaierjr
+    # email: brimaidesigns@gmail.com
+    # linkedin: brianmaierjr
+    # youtube: RickAstleyYT
+    # tumblr: i-am-a-fish
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
+# disqus:
+    # shortname: brianmaierjr
